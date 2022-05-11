@@ -1,0 +1,38 @@
+!**************** NAP physical and chemical properties *****************!
+Forms number: 	4
+Forms:  Gas, Liquid, Solid_acc, Solid_deep
+
+!---------------------------  Polutant forms  -------------------------------
+[Gas]
+Form ID:	_gas
+
+Anthrop emiss:      		no
+Natural emiss:			no
+Reemission:			no
+Boundary conditions:		no
+Dry deposition:			no
+Below-cloud scavenging:		no
+In-cloud scavenging:  		no
+
+! Degradation rate in soil, s-1
+
+SoilDegr:	1.13E-08, 1.13E-08, 0.
+
+!----------------------------------------------------------------------------
+[Liquid] 
+Form ID:	_liquid
+
+! Octanol/water partition coefficient
+
+Kow:		2.344E+03, 0.
+
+!----------------------------------------------------------------------------
+[Solid_acc] 
+Form ID:	_solid_acc
+
+!----------------------------------------------------------------------------
+[Solid_deep] 
+Form ID:	_solid_deep
+
+!----------------------------------------------------------------------------
+

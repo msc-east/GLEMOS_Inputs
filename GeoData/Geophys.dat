@@ -1,0 +1,22 @@
+!******** Some geophysical and ABL parameters independent on pollutant ********! 
+
+! Stability function parameters:
+Beta for momentum:	6.0 
+Beta for heat:		7.8
+Gamma for momentum:	19.3
+Gamma for heat:		11.6
+
+! Dry deposition parameters for forest:
+Aforest:                1.
+Bforest:                1.4
+Cforest:                2.
+
+! Dry deposition parameters for grass:
+Agrass:                 1.
+Bgrass:                 0.22
+Cgrass:                 2.
+Dgrass:               100.
+
+! Deposition parameters
+R of broken water surface, s/m: 10. 
+Fog droplet diameter, m:        20.e-6

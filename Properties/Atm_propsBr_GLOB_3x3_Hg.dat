@@ -1,0 +1,318 @@
+!**************** Mercury physical and chemical properties *****************!
+
+Forms number: 	20
+Forms: Hg0, HgBr, HgBr_part, HgBr2, HgBr2_part, HgBrOH, HgBrOH_part, HgBrOOH, HgBrOOH_part, HgBrONO, HgBrONO_part, HOHg, HOHg_part, HOHgOOH, HOHgOOH_part, HOHgONO, HOHgONO_part, Dissolved, Sulfite, Chloride
+
+!---------------------------  Polutant forms  -------------------------------
+[Hg0]
+Form ID:	0_gas
+
+Anthrop emiss:			yearly		! yearly, monthly, daily, no
+Natural emiss:			monthly		! yearly, monthly, daily, no
+Reemission:			yearly		! yearly, monthly, daily, no
+Boundary conditions:		daily		! yearly, monthly, daily, no
+Atm transport:			yes		! yes, no
+Dry deposition:			yes		! yes, no
+Below-cloud scavenging:		no		! yes, no
+In-cloud scavenging:  		no		! yes, no
+Aqueous form:			no		! yes, no
+Gas exchange:			no		! yes, no
+
+Vd coeffs:			3.e-4, 1.e-4, 0.
+Reaction oxid (O3):		2.1e-18, 1.036e4	! cm3/molec/s
+Reaction oxid (Cl2):		2.6e-18, 0.		! cm3/molec/s
+Reaction oxid (OH):		8.7e-14, 0.		! cm3/molec/s
+!----------------------------------------------------------------------------
+[HgBr]			
+Form ID:	Br
+
+Anthrop emiss:			no		! yearly, monthly, daily, no
+Natural emiss:			no		! yearly, monthly, daily, no
+Reemission:			no		! yearly, monthly, daily, no
+Boundary conditions:		daily		! yearly, monthly, daily, no
+Atm transport:			yes		! yes, no
+Dry deposition:			yes		! yes, no
+Below-cloud scavenging:		yes		! yes, no
+In-cloud scavenging:  		no		! yes, no
+Aqueous form:			no		! yes, no
+Gas exchange:			no		! yes, no
+!----------------------------------------------------------------------------
+[HgBr_part] 
+Form ID:	Br_part
+
+Anthrop emiss:			no		! yearly, monthly, daily, no 
+Natural emiss:			no		! yearly, monthly, daily, no
+Reemission:			no		! yearly, monthly, daily, no
+Boundary conditions:		daily		! yearly, monthly, daily, no
+Atm transport:			yes		! yes, no
+Dry deposition:			yes		! yes, no
+Below-cloud scavenging:		yes		! yes, no
+In-cloud scavenging:  		yes		! yes, no
+Aqueous form:			no		! yes, no
+Gas exchange:			no		! yes, no
+!----------------------------------------------------------------------------
+[HgBr2]
+Form ID:	Br2
+
+Anthrop emiss:			yearly		! yearly, monthly, daily, no
+Natural emiss:			no		! yearly, monthly, daily, no
+Reemission:			no		! yearly, monthly, daily, no
+Boundary conditions:		daily		! yearly, monthly, daily, no
+Atm transport:			yes		! yes, no
+Dry deposition:			yes		! yes, no
+Below-cloud scavenging:		yes		! yes, no
+In-cloud scavenging:  		no		! yes, no
+Aqueous form:			no		! yes, no
+Gas exchange:			no		! yes, no
+
+Surface resistance:		0.	! s/m
+!----------------------------------------------------------------------------
+[HgBr2_part] 
+Form ID:	Br2_part
+
+Anthrop emiss:			yearly		! yearly, monthly, daily, no 
+Natural emiss:			no		! yearly, monthly, daily, no
+Reemission:			no		! yearly, monthly, daily, no
+Boundary conditions:		daily		! yearly, monthly, daily, no
+Atm transport:			yes		! yes, no
+Dry deposition:			yes		! yes, no
+Below-cloud scavenging:		yes		! yes, no
+In-cloud scavenging:  		yes		! yes, no
+Aqueous form:			no		! yes, no
+Gas exchange:			no		! yes, no
+
+Particle diameter, m:		0.61e-6
+Particle density, kg/m3:	1.7e+3
+BCS coeffs: 			0.5e-4, 0.7
+ICS coeffs:			3.e-4, 0.8
+Washout effectiveness coeff:	0.0001  ! kg/m3
+Aerosol solubility: 		0.5
+!----------------------------------------------------------------------------
+[HgBrOH]
+Form ID:	BrOH
+
+Anthrop emiss:			no		! yearly, monthly, daily, no
+Natural emiss:			no		! yearly, monthly, daily, no
+Reemission:			no		! yearly, monthly, daily, no
+Boundary conditions:		daily		! yearly, monthly, daily, no
+Atm transport:			yes		! yes, no
+Dry deposition:			yes		! yes, no
+Below-cloud scavenging:		yes		! yes, no
+In-cloud scavenging:  		no		! yes, no
+Aqueous form:			no		! yes, no
+Gas exchange:			no		! yes, no
+!----------------------------------------------------------------------------
+[HgBrOH_part] 
+Form ID:	BrOH_part
+
+Anthrop emiss:			no		! yearly, monthly, daily, no 
+Natural emiss:			no		! yearly, monthly, daily, no
+Reemission:			no		! yearly, monthly, daily, no
+Boundary conditions:		daily		! yearly, monthly, daily, no
+Atm transport:			yes		! yes, no
+Dry deposition:			yes		! yes, no
+Below-cloud scavenging:		yes		! yes, no
+In-cloud scavenging:  		yes		! yes, no
+Aqueous form:			no		! yes, no
+Gas exchange:			no		! yes, no
+!----------------------------------------------------------------------------
+[HgBrOOH]
+Form ID:	BrOOH
+
+Anthrop emiss:			no		! yearly, monthly, daily, no
+Natural emiss:			no		! yearly, monthly, daily, no
+Reemission:			no		! yearly, monthly, daily, no
+Boundary conditions:		daily		! yearly, monthly, daily, no
+Atm transport:			yes		! yes, no
+Dry deposition:			yes		! yes, no
+Below-cloud scavenging:		yes		! yes, no
+In-cloud scavenging:  		no		! yes, no
+Aqueous form:			no		! yes, no
+Gas exchange:			no		! yes, no
+!----------------------------------------------------------------------------
+[HgBrOOH_part] 
+Form ID:	BrOOH_part
+
+Anthrop emiss:			no		! yearly, monthly, daily, no 
+Natural emiss:			no		! yearly, monthly, daily, no
+Reemission:			no		! yearly, monthly, daily, no
+Boundary conditions:		daily		! yearly, monthly, daily, no
+Atm transport:			yes		! yes, no
+Dry deposition:			yes		! yes, no
+Below-cloud scavenging:		yes		! yes, no
+In-cloud scavenging:  		yes		! yes, no
+Aqueous form:			no		! yes, no
+Gas exchange:			no		! yes, no
+!----------------------------------------------------------------------------
+[HgBrONO]
+Form ID:	BrONO
+
+Anthrop emiss:			no		! yearly, monthly, daily, no
+Natural emiss:			no		! yearly, monthly, daily, no
+Reemission:			no		! yearly, monthly, daily, no
+Boundary conditions:		daily		! yearly, monthly, daily, no
+Atm transport:			yes		! yes, no
+Dry deposition:			yes		! yes, no
+Below-cloud scavenging:		yes		! yes, no
+In-cloud scavenging:  		no		! yes, no
+Aqueous form:			no		! yes, no
+Gas exchange:			no		! yes, no
+!----------------------------------------------------------------------------
+[HgBrONO_part] 
+Form ID:	BrONO_part
+
+Anthrop emiss:			no		! yearly, monthly, daily, no 
+Natural emiss:			no		! yearly, monthly, daily, no
+Reemission:			no		! yearly, monthly, daily, no
+Boundary conditions:		daily		! yearly, monthly, daily, no
+Atm transport:			yes		! yes, no
+Dry deposition:			yes		! yes, no
+Below-cloud scavenging:		yes		! yes, no
+In-cloud scavenging:  		yes		! yes, no
+Aqueous form:			no		! yes, no
+Gas exchange:			no		! yes, no
+!----------------------------------------------------------------------------
+[HOHg]
+Form ID:	OH
+
+Anthrop emiss:			no		! yearly, monthly, daily, no
+Natural emiss:			no		! yearly, monthly, daily, no
+Reemission:			no		! yearly, monthly, daily, no
+Boundary conditions:		daily		! yearly, monthly, daily, no
+Atm transport:			yes		! yes, no
+Dry deposition:			yes		! yes, no
+Below-cloud scavenging:		yes		! yes, no
+In-cloud scavenging:  		no		! yes, no
+Aqueous form:			no		! yes, no
+Gas exchange:			no		! yes, no
+!----------------------------------------------------------------------------
+[HOHg_part] 
+Form ID:	OH_part
+
+Anthrop emiss:			no		! yearly, monthly, daily, no 
+Natural emiss:			no		! yearly, monthly, daily, no
+Reemission:			no		! yearly, monthly, daily, no
+Boundary conditions:		daily		! yearly, monthly, daily, no
+Atm transport:			yes		! yes, no
+Dry deposition:			yes		! yes, no
+Below-cloud scavenging:		yes		! yes, no
+In-cloud scavenging:  		yes		! yes, no
+Aqueous form:			no		! yes, no
+Gas exchange:			no		! yes, no
+!----------------------------------------------------------------------------
+[HOHgOOH]
+Form ID:	OHOOH
+
+Anthrop emiss:			no		! yearly, monthly, daily, no
+Natural emiss:			no		! yearly, monthly, daily, no
+Reemission:			no		! yearly, monthly, daily, no
+Boundary conditions:		daily		! yearly, monthly, daily, no
+Atm transport:			yes		! yes, no
+Dry deposition:			yes		! yes, no
+Below-cloud scavenging:		yes		! yes, no
+In-cloud scavenging:  		no		! yes, no
+Aqueous form:			no		! yes, no
+Gas exchange:			no		! yes, no
+!----------------------------------------------------------------------------
+[HOHgOOH_part] 
+Form ID:	OHOOH_part
+
+Anthrop emiss:			no		! yearly, monthly, daily, no 
+Natural emiss:			no		! yearly, monthly, daily, no
+Reemission:			no		! yearly, monthly, daily, no
+Boundary conditions:		daily		! yearly, monthly, daily, no
+Atm transport:			yes		! yes, no
+Dry deposition:			yes		! yes, no
+Below-cloud scavenging:		yes		! yes, no
+In-cloud scavenging:  		yes		! yes, no
+Aqueous form:			no		! yes, no
+Gas exchange:			no		! yes, no
+!----------------------------------------------------------------------------
+[HOHgONO]
+Form ID:	OHONO
+
+Anthrop emiss:			no		! yearly, monthly, daily, no
+Natural emiss:			no		! yearly, monthly, daily, no
+Reemission:			no		! yearly, monthly, daily, no
+Boundary conditions:		daily		! yearly, monthly, daily, no
+Atm transport:			yes		! yes, no
+Dry deposition:			yes		! yes, no
+Below-cloud scavenging:		yes		! yes, no
+In-cloud scavenging:  		no		! yes, no
+Aqueous form:			no		! yes, no
+Gas exchange:			no		! yes, no
+!----------------------------------------------------------------------------
+[HOHgONO_part] 
+Form ID:	OHONO_part
+
+Anthrop emiss:			no		! yearly, monthly, daily, no 
+Natural emiss:			no		! yearly, monthly, daily, no
+Reemission:			no		! yearly, monthly, daily, no
+Boundary conditions:		daily		! yearly, monthly, daily, no
+Atm transport:			yes		! yes, no
+Dry deposition:			yes		! yes, no
+Below-cloud scavenging:		yes		! yes, no
+In-cloud scavenging:  		yes		! yes, no
+Aqueous form:			no		! yes, no
+Gas exchange:			no		! yes, no
+!----------------------------------------------------------------------------
+[Dissolved]			! (A-group)
+Form ID:	0_dis
+
+Anthrop emiss:			no		! yearly, monthly, daily, no
+Natural emiss:			no		! yearly, monthly, daily, no
+Reemission:			no		! yearly, monthly, daily, no
+Boundary conditions:		no		! yearly, monthly, daily, no
+Atm transport:			yes		! yes, no
+Dry deposition:			yes		! yes, no
+Below-cloud scavenging:		no		! yes, no
+In-cloud scavenging:  		yes		! yes, no
+Aqueous form:			yes		! yes, no
+Gas exchange:			no		! yes, no
+
+!Liquid water:			1.e-4, 3.e-4, 1.e-3
+Henry const (Hg):		0.01061, 2708.4
+Henry const (O3):		0.000951, 2325.
+Henry const (OH):		2.051, 5283.218
+Henry const (Cl2):		2.7e5, 0.
+Reaction A->C (O3):		7.8e-14		! cm3/molec/s
+Reaction A->C (Cl2):		3.3e-15		! cm3/molec/s
+Reaction A->C (OH):		4.e-12		! cm3/molec/s
+!----------------------------------------------------------------------------
+[Sulfite]			! (B-group)
+Form ID:	_sulf
+
+Anthrop emiss:			no		! yearly, monthly, daily, no
+Natural emiss:			no		! yearly, monthly, daily, no
+Reemission:			no		! yearly, monthly, daily, no
+Boundary conditions:		no		! yearly, monthly, daily, no
+Atm transport:			yes		! yes, no
+Dry deposition:			yes		! yes, no
+Below-cloud scavenging:		no		! yes, no
+In-cloud scavenging:  		yes		! yes, no
+Aqueous form:			yes		! yes, no
+Gas exchange:			no		! yes, no
+
+Adsorption ratio:		0.2
+Reaction B->A:			0.44e-3		! 1/s
+!----------------------------------------------------------------------------
+[Chloride]				! (C-group)
+Form ID:	_chlor
+
+Anthrop emiss:			no		! yearly, monthly, daily, no
+Natural emiss:			no		! yearly, monthly, daily, no
+Reemission:			no		! yearly, monthly, daily, no
+Boundary conditions:		no		! yearly, monthly, daily, no
+Atm transport:			yes		! yes, no
+Dry deposition:			yes		! yes, no
+Below-cloud scavenging:		no		! yes, no
+In-cloud scavenging:  		yes		! yes, no
+Aqueous form:			yes		! yes, no
+Gas exchange:			no		! yes, no
+
+Hg ion/chloride ratio:		1.82e-7, 6.03e-14, 8.51e-15, 8.51e-16
+Chlorine ion conc:		7.e-5
+pH:				5.5	! 4.5
+Henry const (HgCl2):		1.054e5, 5590.
+Reaction C->B:			1.8e-42		! cm6/molec2/s
+Reaction C->A:			2.8e-17		! cm3/molec/s

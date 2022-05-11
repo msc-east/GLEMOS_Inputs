@@ -1,0 +1,15 @@
+!****** Configuration file of atmospheric module ******! 
+
+! Upper boundary of the model domain (Pa)
+Upper boundary:		1.e3
+
+! Number of model sigma layers in the atmosphere
+Number of layers:	20
+
+! Boundaries of model sigma layers
+Sigma bound: 1.,0.99,0.98,0.964,0.936,0.9,0.86,0.816,0.764,0.706,0.64,0.56,0.476,0.384,0.29,0.196,0.124,0.072,0.034,0.01,0.
+
+! Source of vertical wind velocity
+! calc - calculation within the model
+! driver - input from meteorological driver
+Vertical velocity:	calc

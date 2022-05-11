@@ -1,0 +1,29 @@
+!**************** PCB-153 physical and chemical properties *****************!
+
+Forms number: 	2
+Forms:  Dissolved, Particulate
+
+!---------------------------  Polutant forms  -------------------------------
+[Dissolved]
+Form ID:	_gas
+
+! Degradation in the ocean: TD - with temperature dependence
+!  followed by degradation constant and energy of activation, J/mol
+!                           Av - without temperature dependence
+!  followed by two values of first-order constants, s-1 for gas and particles,
+!  respectively
+
+SeaDegr:	3.50074E-09
+
+! Ratio of fraction of particulate phase to that of dissolved phase
+
+SeaRedistr:     1.0
+
+!----------------------------------------------------------------------------
+[Particulate] 
+Form ID:	_part
+
+SeaDegr:	3.50074E-09
+
+!----------------------------------------------------------------------------
+

@@ -1,0 +1,6 @@
+4.00e-5		!dzwm0 (mol.diff)   
+8.00e-3		!dhf (foam)(m/s)     
+1.00e-2		!kdv  (cm/s2)    
+1.00e+5		!kdh  (cm/s2)          
+1.00e+6		!oc_SedCoeff         
+3.00e-6		!oc_rpart            

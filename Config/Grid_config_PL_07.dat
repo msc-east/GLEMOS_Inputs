@@ -1,0 +1,27 @@
+!******** Configuration file of the model grid *********! 
+Grid code: PL_07
+
+! Projection type
+! 	latlon - Geographic latitude-longitude projection
+! 	polar - Polar stereographyc
+Projection type:  latlon
+
+! Region type
+! 	global - Global domain
+! 	regional - Regional domain
+Region type:      regional
+
+! Coordinates of the lower left corner of the grid, degrees (lon, lat)
+Grid origin:      11.8125, 47.03125
+
+! Grid spatial resolution, degrees (lon, lat):
+Grid resolution:  0.1250, 0.0625
+
+! Grid size, number of gridcells (lon, lat)
+Grid size:        101, 146
+
+! Minimum grid step in zonal direction needed for grid aggregation 
+! around the poles (meters)
+Min step: 0
+
+!*******************************************************!

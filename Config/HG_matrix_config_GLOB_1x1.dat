@@ -1,0 +1,29 @@
+!****** Configuration file of source-receptor matrix ******! 
+
+! Number of anthropogenic sources
+Ant sources number: 16
+
+! Codes of anthropogenic sources
+Ant sources codes: NAM, EUR, SAS, EAS, SEA, PAN, NAF, SAF, MDE, MCA, SAM, RBU, CAS, NPO, NPE, NPA   
+
+! Number of natural sources
+Nat sources number: 18
+
+! Codes of natural sources
+Nat sources codes: nOCN, nNAM, nEUR, nSAS, nEAS, nSEA, nPAN, nNAF, nSAF, nMDE, nMCA, nSAM, nRBU, nCAS, nNPO, nSPO, nNPE, nNPA   
+
+! Number of boundary sources
+Bnd sources number: 1
+
+! Codes of boundary sources
+Bnd sources codes: BND   
+
+!-----------------------------------------------------------
+
+! Number of receptors
+Receptors number: 18
+
+! Codes of receptors
+Receptors codes: OCN, NAM, EUR, SAS, EAS, SEA, PAN, NAF, SAF, MDE, MCA, SAM, RBU, CAS, NPO, SPO, NPE, NPA
+
+!----------------------------------------------------------

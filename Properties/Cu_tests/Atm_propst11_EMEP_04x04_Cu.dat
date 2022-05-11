@@ -1,0 +1,28 @@
+!**************** Dust physical and chemical properties *****************!
+
+Forms number: 	1
+Forms: Particulate
+
+!---------------------------  Polutant forms  -------------------------------
+[Particulate] 
+Form ID:	_part
+
+Anthrop emiss:			monthly    ! yearly, monthly, daily, no
+Natural emiss:			daily         ! yearly, monthly, daily, no
+Reemission:			no         ! yearly, monthly, daily, no
+Boundary conditions:		no		! yearly, monthly, daily, no
+Atm transport:			yes		! yes, no
+Dry deposition:			yes		! yes, no
+Below-cloud scavenging:		yes		! yes, no
+In-cloud scavenging:  		yes		! yes, no
+Aqueous form:			no		! yes, no
+Gas exchange:			no		! yes, no
+
+Particle diameter, m:		1.29e-6
+Particle density, kg/m3:	1.7e+3
+BCS coeffs:			1.e-3, 0.7
+ICS coeffs:			3.e-4, 0.8
+Washout effectiveness coeff:	0.0001		! kg/m3
+Aerosol solubility:		0.
+Seawater emis factor, kg/kg:	4.5e-7	
+!----------------------------------------------------------------------------

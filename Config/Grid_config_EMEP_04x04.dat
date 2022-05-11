@@ -1,0 +1,32 @@
+!******** Configuration file of the model grid *********! 
+Grid code: EMEP_04x04
+
+! Projection type
+! 	latlon - Geographic latitude-longitude projection
+! 	polar - Polar stereographyc
+Projection type:  latlon
+
+! Region type
+! 	global - Global domain
+! 	regional - Regional domain
+Region type:      regional
+
+! Coordinates of the lower left corner of the grid, degrees (lon, lat)
+Grid origin:      -30., 30.
+
+! Grid spatial resolution, degrees*100 (lon, lat):
+! 		e.g.	100 - 1 degree
+!			300 - 3 degrees
+!			500 - 5 degrees
+!			 20 - 0.2 degrees
+!			 40 - 0.4 degrees
+Grid resolution:  0.4, 0.4
+
+! Grid size, number of gridcells (lon, lat)
+Grid size:        300, 130
+
+! Minimum grid step in zonal direction needed for grid aggregation 
+! around the poles (meters)
+Min step: 20000
+
+!*******************************************************!

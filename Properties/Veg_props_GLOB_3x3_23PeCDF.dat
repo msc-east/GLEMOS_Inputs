@@ -1,0 +1,22 @@
+!**************** 23PeCDF physical and chemical properties *****************!
+Forms number: 	2
+Forms:  Gas, Particulate
+
+!---------------------------  Polutant forms  -------------------------------
+[Gas]
+Form ID:	(gas)
+
+! Degradation rate in vegetation, s-1
+VegDegr:	0.
+! Degradation rate in forest litter, s-1
+FallDegr:	7.0014E-10
+! Molar volume (cm**3/mol)
+MolarVol:	212.3
+
+!----------------------------------------------------------------------------
+[Particulate] 
+Form ID:	(part)
+!----------------------------------------------------------------------------
+
+
+

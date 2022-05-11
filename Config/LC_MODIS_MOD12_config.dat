@@ -1,0 +1,15 @@
+!****** Configuration file of land cover data ******! 
+
+! Number of land cover types
+Surfaces number:  17
+
+! Codes of of land cover types
+LC codes: Water, EvNeedl, EvBroad, DecNeedl, DecBroad, MixedFor, ClosShrub, OpenShrub, WoodSav, Savanna, Grassland, Wetland, Cropland, Urban, Crop_NatVeg, Snow_Ice, Bar_SparVeg  
+
+! Groups of land cover
+Water: Water
+Forest: EvNeedl, EvBroad, DecNeedl, DecBroad, MixedFor
+Grass: ClosShrub, OpenShrub, Savanna, Grassland, Wetland, WoodSav
+Arable: Cropland, Crop_NatVeg
+Urban: Urban
+Barren: Bar_SparVeg, Snow_Ice
