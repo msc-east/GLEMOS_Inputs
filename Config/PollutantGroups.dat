@@ -1,7 +1,7 @@
 !******** Definition of pollutant groups *********! 
 
-HM: Pb, Cd, Cr, Ni, As, Se, Cu, Zn
+HM: Pb, Cd
 HG: Hg
-POP: BaP,BbF,BkF,IcdP,PCB-153,23PeCDF,HCB,ACE,ACY,ANT,CHR,BaA,DahA,FLA,FLO,PHE,PYR,BghiP,NAP
+POP: BaP
 AERO: PM
 TRACER: CO
