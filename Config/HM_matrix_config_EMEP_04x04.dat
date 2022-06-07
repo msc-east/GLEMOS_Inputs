@@ -15,10 +15,10 @@ Nat sources number: 4
 Nat sources codes: BRN, URB, ARB, WTR   
 
 ! Number of boundary sources
-Bnd sources number: 6
+Bnd sources number: 1
 
 ! Codes of boundary sources
-Bnd sources codes: WRLDg, EMEPg, BRNg, URBg, ARBg, WTRg
+Bnd sources codes: BND
 
 !-----------------------------------------------------------
 
