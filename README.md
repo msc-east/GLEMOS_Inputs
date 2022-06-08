@@ -1,6 +1,6 @@
 # Description
 
-This repository is a part of the GLEMOS WorkSpace and contains non-emission input files for GLEMOS modeling, including configuration and pollutant properties files. User Manual is avalible on the MSC-E website: https://www.msceast.org/
+This repository is a part of the GLEMOS WorkSpace and contains non-emission input files for GLEMOS modeling, including configuration and pollutant properties files.
 
 
 # About GLEMOS
